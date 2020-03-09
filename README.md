@@ -3,4 +3,4 @@
 
 | NO        | 主題                      | 連結        | 
 | --------- | ------------------------ | ----------  |
-| 1         | 01 - JavaScript Drum Kit | [LINK]()    |
+| 1         | 01 - JavaScript Drum Kit | [LINK](https://github.com/Yogo888/JS30/tree/master/01-JavaScript%20Drum%20Kit)    |
