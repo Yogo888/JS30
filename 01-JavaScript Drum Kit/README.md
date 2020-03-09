@@ -51,21 +51,3 @@ function removeTransition(e) {
   this.classList.remove('playing');
 }
 ```
-
-> 1.監聽事件 [addEventListener(event, function)](https://www.runoob.com/jsref/met-element-addeventlistener.html)
-
-> 2.按鍵事件 [keydown](https://medium.com/@yitailin/%E6%AF%94%E8%BC%83-keydown-keypress-keyup-%E7%9A%84%E5%B7%AE%E7%95%B0-4e873ba17e81)
-
-> 3.透過 CSS 選擇元素 [querySelector、querySelectorAll](https://www.jianshu.com/p/9c3cb1ae03aa)
-
-> 4.播放/指定播放秒數 element.play、element.currentTime
-
-> 5.資料屬性 [data-* attribute](https://pjchender.blogspot.com/2017/01/html-5-data-attribute.html)
-
-> 6.增加/移除CSS [element.classList.add( ), element.classList.remove( )](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/27430/)
-
-> 7.動畫結束後所做的事件 - [transitionEnd](https://www.runoob.com/jsref/event-transitionend.html)
-
-> 8.[forEach](https://www.hexschool.com/2017/09/01/2017-09-01-javascript-for/#Array-prototype-forEach)
-
-> 9.若不符合則退出函式 [function( ){if(...) return}](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/return)
