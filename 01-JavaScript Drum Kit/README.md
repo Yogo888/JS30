@@ -1,9 +1,5 @@
 # JS30 Day1 – JavaScript Drum Kit
 
-練習頁面
----
-<i class="fa fa-link fa-fw"></i> [Github](https://github.com/wesbos/JavaScript30)
-
 addEventListener 指定元素添加事件
 ---
 `keydown`按下按鍵，取得對應的鍵盤代碼`e.keyCode`，否則回傳`null`
