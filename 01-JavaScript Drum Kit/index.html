@@ -76,7 +76,7 @@
 
   const keys = document.querySelectorAll('.key'); // 選出所有 .key 元素
   // forEach 讀取 NodeList 為每一個元素加上 transitionend 事件，事件執行時會觸發 removeTransition
-  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  keys.forEach( key => key.addEventListener('transitionend', removeTransition));
   
   window.addEventListener('keydown', playSound);
 
