@@ -4,7 +4,7 @@ transform
 ---
 `transform-oragin` 時鐘的旋轉中心點
 
-`trsition` 指針走動的動態效果
+`transition` 指針走動的動態效果
 
 `transition-timing-function: cubic-bezier`更改動畫曲線
 
