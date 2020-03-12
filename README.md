@@ -5,10 +5,10 @@
  [JavaScript30 影片連結](https://www.youtube.com/playlist?list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH)
 
 ## 目錄列表
-| No | 主題 | 關鍵字 | 連結 |
-| --- | --- | --- | --- |
-| 01 | JavaScript Drum Kit | addEventListener、keydown、querySelector、querySelectorAll、data-* attribute、transitionEnd、element.classList.add(), element.classList.remove()、function(){if(…) return} | [筆記](https://github.com/Yogo888/JS30/tree/master/01-JavaScript%20Drum%20Kit)、[畫面](https://yogo888.github.io/JS30/01-JavaScript%20Drum%20Kit/) | 
-| 02 | JS and CSS Clock | new.Date()、getSeconds()、getMinutes()、getHours()、setInterval | [筆記](https://github.com/Yogo888/JS30/tree/master/02%20-%20JS%20and%20CSS%20Clock)、[畫面](https://yogo888.github.io/JS30/02%20-%20JS%20and%20CSS%20Clock/) | 
+| No | 主題 | 關鍵字 | 筆記 | 畫面 |
+| --- | --- | --- | --- | --- |
+| 01 | JavaScript Drum Kit | addEventListener、keydown、querySelector、querySelectorAll、data-* attribute、transitionEnd、element.classList.add(), element.classList.remove()、function(){if(…) return} | [筆記](https://github.com/Yogo888/JS30/tree/master/01-JavaScript%20Drum%20Kit) | [畫面](https://yogo888.github.io/JS30/01-JavaScript%20Drum%20Kit/) | 
+| 02 | JS and CSS Clock | new.Date()、getSeconds()、getMinutes()、getHours()、setInterval | [筆記](https://github.com/Yogo888/JS30/tree/master/02%20-%20JS%20and%20CSS%20Clock) | [畫面](https://yogo888.github.io/JS30/02%20-%20JS%20and%20CSS%20Clock/) | 
 | 03 | CSS Variables |  |
 | 04 | Array Cardio Day 1 |  |
 | 05 | Flex Panel Gallery |  |
