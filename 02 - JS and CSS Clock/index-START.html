@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS + CSS Clock</title>
+</head>
+<body>
+
+
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
+      </div>
+    </div>
+
+
+  <style>
+    html {
+      background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
+      background-size: cover;
+      font-family: 'helvetica neue';
+      text-align: center;
+      font-size: 10px;
+    }
+
+    body {
+      margin: 0;
+      font-size: 2rem;
+      display: flex;
+      flex: 1;
+      min-height: 100vh;
+      align-items: center;
+    }
+
+    .clock {
+      width: 30rem;
+      height: 30rem;
+      border: 20px solid white;
+      border-radius: 50%;
+      margin: 50px auto;
+      position: relative;
+      padding: 2rem;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .clock-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px); /* account for the height of the clock hands */
+    }
+
+    .hand {
+      width: 50%;
+      height: 6px;
+      background: black;
+      position: absolute;
+      top: 50%;
+      /* 更改旋轉中心點 */
+      transform-origin: 100%;
+      /* 更改時針角度 */
+      transform: rotate(90deg);
+      /* 走動的動態效果 */
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0, 1.74, 0.36, 0.59);
+    }
+
+  </style>
+
+  <script>
+
+    const secondHand = document.querySelector('.second-hand');
+    const minsHand = document.querySelector('.min-hand');
+    const hourHand = document.querySelector('.hour-hand');
+
+    // 每秒運行一次
+    function setDate() {
+      
+      // 建立 Date 物件，其值就是當下的時間。
+      const now = new Date();
+
+      // 透過 getSeconds() 的方式取出'秒'的值。
+      const seconds = now.getSeconds();
+
+      const secondsDegrees = ((seconds / 60) * 360) + 90;
+      // 一圈共 60 秒，因此 seconds/60 能獲得秒針在時鐘上的經過的比例
+      // 接著乘上一圈 360 度，我們就能知道在指針在對應的位置所需要的數值。
+      // 最後別忘了一開始提過 +90 度，讓指針從12點鐘方向開始運作。
+      secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+      // 將 CSS 套上計算結果就好囉。
+
+      const mins = now.getMinutes();
+      const minsDegrees = ((mins / 60) * 360) + ((seconds/60)*6) + 90;
+      minsHand.style.transform = `rotate(${minsDegrees}deg)`;
+
+      const hour = now.getHours();
+      const hourDegrees = ((hour / 12) * 360) + ((mins/60)*30) + 90;
+      hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+    }
+
+    // setInterval() 會在間隔固定的時間不斷重複
+    // 每秒運行一次
+    setInterval(setDate, 1000);
+
+  </script>
+</body>
+</html>
