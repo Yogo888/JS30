@@ -1,8 +1,10 @@
-# JS30
+![](https://javascript30.com/images/JS3-social-share.png)
+
+# JavaScript30
  [JavaScript30 檔案下載](https://github.com/wesbos/JavaScript30)、
  [JavaScript30 影片連結](https://www.youtube.com/playlist?list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH)
 
-## 列表
+## 目錄列表
 | No | 主題 | Tag | 連結 |
 | --- | --- | --- | --- |
 | 01 | JavaScript Drum Kit | addEventListener、keydown、querySelector、querySelectorAll、data-* attribute、transitionEnd、element.classList.add(), element.classList.remove()、function(){if(…) return} | [LINK](https://yogo888.github.io/JS30/01-JavaScript%20Drum%20Kit/) | 
