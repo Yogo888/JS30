@@ -9,7 +9,7 @@
 | --- | --- | --- | --- | --- |
 | 01 | JavaScript Drum Kit | addEventListener、keydown、querySelector、querySelectorAll、data-* attribute、transitionEnd、element.classList.add(), element.classList.remove()、function(){if(…) return} | [筆記](https://github.com/Yogo888/JS30/tree/master/01-JavaScript%20Drum%20Kit) | [畫面](https://yogo888.github.io/JS30/01-JavaScript%20Drum%20Kit/) | 
 | 02 | JS and CSS Clock | new.Date()、getSeconds()、getMinutes()、getHours()、setInterval | [筆記](https://github.com/Yogo888/JS30/tree/master/02-JS%20and%20CSS%20Clock) | [畫面](https://yogo888.github.io/JS30/02-JS%20and%20CSS%20Clock/) | 
-| 03 | CSS Variables |  |
+| 03 | CSS Variables | :root、el.dataset | [筆記](https://github.com/Yogo888/JS30/tree/master/03-CSS%20Variables) | [畫面](https://yogo888.github.io/JS30/03-CSS%20Variables/) | 
 | 04 | Array Cardio Day 1 |  |
 | 05 | Flex Panel Gallery |  |
 | 06 | Type Ahead |  |
