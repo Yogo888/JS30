@@ -6,14 +6,14 @@
 
 ```js
 
-//篩選1500~1599間的發明家
+// 篩選 1500~1599 間的發明家
 const fifteen = inventors.filter(function(inventor){
   if(inventor.year >= 1500 && inventor.year < 1600){
     return true;
   }
 })
 
-//簡化寫法
+// 簡化寫法
 const fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.year < 1600));
 
 console.table(fifteen);
@@ -25,7 +25,7 @@ console.table(fifteen);
 依照條件重新組合一個新的陣列
 
 ```js
-// 將last與first重新組合成一個陣列
+// 將 last 與 first 重新組合成一個陣列
 const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
 
 console.table(fullNames);
@@ -36,7 +36,7 @@ console.table(fullNames);
 對陣列的所有元素進行排序，預設的排序順序是根據字串的 Unicode 編碼位置而定
 
 ```js
-//依照生日由大至小排序，條件成立，回傳1；反之回傳-1
+// 依照生日由大至小排序，條件成立，回傳 1；反之回傳 -1
 const ordered = inventors.sort(function(a, b){
   if(a.year > b.year) {
    return 1;
@@ -45,7 +45,7 @@ const ordered = inventors.sort(function(a, b){
   }
 })
 
-//簡化寫法
+// 簡化寫法
 const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
 
 console.table(ordered);
@@ -56,14 +56,14 @@ console.table(ordered);
 累加陣列中每項元素（由左至右）遞減，將陣列化為單一值
 
 ```js
-//for迴圈寫法
+// for迴圈寫法
 var totalYears = 0;
 
 for (var i = 0; i < inventors.length; i++) {
   totalYears += inventors[i].year
 }
 
-//reduce()寫法
+// reduce()寫法
 const totalYears = inventors.reduce((total, inventor) => {
   return total + (inventor.passed - inventor.year);
 }, 0);
@@ -96,7 +96,7 @@ console.table(oldest);
 ```js
 // 經由 querySelectorAll() 產生 NodeList
 const category = document.querySelector('.mw-category');
-// 使用Array方法,要將其轉成陣列
+// 使用 Array 方法，要將其轉成陣列
 const links = Array.from(category.querySelectorAll('a'));
 const de = links.map(link => link.textContent)
                 .filter(streetName => streetName.includes('de'));
@@ -120,7 +120,7 @@ const [bLast, bfirst] = nextOne.split(', ');
 console.log(alpha);
 ```
 
-8、計算data內每個值的數量
+8、計算 data 內每個值的數量
 ---
 
 ```js
