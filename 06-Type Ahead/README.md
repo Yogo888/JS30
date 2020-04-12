@@ -23,7 +23,7 @@ fetch(endpoint)
 
 RegExp 正規表達式
 ---
-利用`RegExp`來尋找`city`與`state`的屬性中含有關鍵字的資料
+利用 `RegExp` 來尋找`city` 與 `state` 的屬性中含有關鍵字的資料
 
 ```js
 // 透過 findMatches() 取得特定資料
