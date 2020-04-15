@@ -1,6 +1,6 @@
 # JS30 Day4 – Array Cardio Day 1
 
-1、Array.filter()
+1、Array.prototype.filter()
 ---
 篩選出符合條件的選項，並回傳true的陣列
 
@@ -20,7 +20,7 @@ console.table(fifteen);
 ```
 > `console.table()`可將資料以表格方式呈現
 
-2、Array.map()
+2、Array.prototype.map()
 ---
 依照條件重新組合一個新的陣列
 
@@ -31,7 +31,7 @@ const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`
 console.table(fullNames);
 ```
 
-3、Array.sort()
+3、Array.prototype.sort()
 ---
 對陣列的所有元素進行排序，預設的排序順序是根據字串的 Unicode 編碼位置而定
 
@@ -51,7 +51,7 @@ const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
 console.table(ordered);
 ```
 
-4、Array.reduce()
+4、Array.prototype.reduce()
 ---
 累加陣列中每項元素（由左至右）遞減，將陣列化為單一值
 
@@ -71,7 +71,7 @@ const totalYears = inventors.reduce((total, inventor) => {
 console.log(totalYears);
 ```
 
-5、利用 Array.sort() 依照年齡大小排序
+5、利用 sort() 依照年齡大小排序
 ---
 
 ```js
