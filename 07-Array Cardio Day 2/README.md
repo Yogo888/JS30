@@ -33,7 +33,13 @@ console.log(commentID);
 
 3、findIndex() & splice()
 ---
-`findIndex()` 回傳第一筆符合條件的元素索引位置，如果沒有符合的將返回-1
+`findIndex()` 回傳第一筆符合條件的元素索引位置，如果沒有符合的將返回 -1
+
+`splice(start,deleteCount,item1,...,itemX)` 藉由刪除既有元素並／或加入新元素來改變一個陣列的內容
+[MDN詳解](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+> `start` 添加/刪除的起點
+> `deleteCount` 欲刪除的原陣列元素數量，如果為 0 表示不刪除元素
+> `item1,...` 從`start` 開始，要加入到陣列的元素
 
 ```js
 // 找出需要的元素索引
@@ -52,15 +58,3 @@ const newComments = [
   ...comments.slice(index + 1)
 ];
 ```
-`splice(start,deleteCount,item1,...,itemX)` 藉由刪除既有元素並／或加入新元素來改變一個陣列的內容 [MDN詳解](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
-> `start` 添加/刪除的起點
-`deleteCount` 欲刪除的原陣列元素數量，如果為 0 表示不刪除元素
-`item1,...` 從`start` 開始，要加入到陣列的元素
-
-```js
-var myFish = ['angel', 'clown', 'trumpet', 'sturgeon'];
-// 從索引 0 的位置開始，刪除 2 個元素並插入「parrot」、「anemone」和「blue」
-var removed = myFish.splice(0, 2, 'parrot', 'anemone', 'blue');
-```
-> myFish 為 ['parrot', 'anemone', 'blue', 'trumpet', 'sturgeon'] 
-removed 為 ['angel', 'clown']
