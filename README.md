@@ -10,10 +10,10 @@
 | 01 | JavaScript Drum Kit | addEventListener、keydown、querySelector、querySelectorAll、data-* attribute、transitionEnd、element.classList.add(), element.classList.remove()、function(){if(…) return} | [筆記](https://github.com/Yogo888/JS30/tree/master/01-JavaScript%20Drum%20Kit) | [畫面](https://yogo888.github.io/JS30/01-JavaScript%20Drum%20Kit/) | 
 | 02 | JS and CSS Clock | new.Date()、getSeconds()、getMinutes()、getHours()、setInterval | [筆記](https://github.com/Yogo888/JS30/tree/master/02-JS%20and%20CSS%20Clock) | [畫面](https://yogo888.github.io/JS30/02-JS%20and%20CSS%20Clock/) | 
 | 03 | CSS Variables | :root、el.dataset | [筆記](https://github.com/Yogo888/JS30/tree/master/03-CSS%20Variables) | [畫面](https://yogo888.github.io/JS30/03-CSS%20Variables/) | 
-| 04 | Array Cardio Day 1 | Array.filter()、Array.map()、Array.sort()、Array.reduce() |  [筆記](https://github.com/Yogo888/JS30/tree/master/04-Array%20Cardio%20Day%201) | – | 
+| 04 | Array Cardio Day 1 | filter()、map()、sort()、reduce() |  [筆記](https://github.com/Yogo888/JS30/tree/master/04-Array%20Cardio%20Day%201) | – | 
 | 05 | Flex Panel Gallery | flex、e.propertyName、includes() | [筆記](https://github.com/Yogo888/JS30/tree/master/05-Flex%20Panel%20Gallery) | [畫面](https://yogo888.github.io/JS30/05-Flex%20Panel%20Gallery) |
 | 06 | Type Ahead | Fetch API、RegExp、join() | [筆記](https://github.com/Yogo888/JS30/tree/master/06-Type%20Ahead) | [畫面](https://yogo888.github.io/JS30/06-Type%20Ahead) |
-| 07 | Array Cardio Day 2 |  |
+| 07 | Array Cardio Day 2 | some()、every()、find()、findIndex、splice()、slice() | [筆記](https://github.com/Yogo888/JS30/tree/master/07-Array%20Cardio%20Day%202) | [畫面](https://yogo888.github.io/JS30/07-Array%20Cardio%20Day%202) |
 | 08 | Fun with HTML5 Canvas |  |
 | 09 | Dev Tools Domination |  |
 | 10 | Hold Shift and Check Checkboxes |  |
