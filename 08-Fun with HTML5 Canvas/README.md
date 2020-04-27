@@ -47,6 +47,8 @@ let hue = 0;
 // 判斷線條粗細大小
 let direction = true;
 ```
+> [其他筆觸參考](https://juejin.im/post/5c14ccea518825493b2a5f02)
+
 繪製條件設定
 ---
 
