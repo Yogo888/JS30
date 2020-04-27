@@ -10,7 +10,7 @@ canvas 繪製功能
 設定畫布內容
 ---
 
-```javascript
+```js
 const canvas = document.querySelector('#draw');
 // 繪製的類型為 2D
 const ctx = canvas.getContext('2d');
@@ -23,7 +23,7 @@ canvas.height = window.innerHeight;
 畫筆樣式設定
 ---
 
-```javascript
+```js
 // 顏色
 ctx.strokeStyle = '#BADA55';
 // 線條連結樣式
@@ -36,7 +36,7 @@ ctx.lineWidth = 100;
 // ctx.globalCompositeOperation = 'multiply';
 ```
 
-```javascript
+```js
 // 判斷是否正在繪圖
 let isDrawing = false;
 // 起始點座標
@@ -50,7 +50,7 @@ let direction = true;
 繪製條件設定
 ---
 
-```javascript
+```js
 function draw(e) {
   // 判斷 isDrawing 是否為 true，為 false 則返回停止
   if (!isDrawing) return;
@@ -88,7 +88,7 @@ function draw(e) {
   }
 }
 ```
-```javascript
+```js
 canvas.addEventListener('mousedown', (e) => {
   // 開始繪圖
   isDrawing = true;
