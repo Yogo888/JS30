@@ -15,7 +15,7 @@
 | 06 | Type Ahead | Fetch API、RegExp、join() | [筆記](https://github.com/Yogo888/JS30/tree/master/06-Type%20Ahead) | [畫面](https://yogo888.github.io/JS30/06-Type%20Ahead) |
 | 07 | Array Cardio Day 2 | some()、every()、find()、findIndex、splice()、slice() | [筆記](https://github.com/Yogo888/JS30/tree/master/07-Array%20Cardio%20Day%202) | – |
 | 08 | Fun with HTML5 Canvas | CanvasRenderingContext2D | [筆記](https://github.com/Yogo888/JS30/tree/master/08-Fun%20with%20HTML5%20Canvas) | [畫面](https://yogo888.github.io/JS30/08-Fun%20with%20HTML5%20Canvas) |
-| 09 | Dev Tools Domination |  |
+| 09 | Dev Tools Domination | console.log()、console.warn()、console.info()、console.assert()、console.clear()、console.dir()、console.groupCollapsed()、console.groupEnd()、console.count()、console.time() |  [筆記](https://github.com/Yogo888/JS30/tree/master/09-Dev%20Tools%20Domination) | – | 
 | 10 | Hold Shift and Check Checkboxes |  |
 | 11 | Custom Video Player |  |
 | 12 | Key Sequence Detection |  |
