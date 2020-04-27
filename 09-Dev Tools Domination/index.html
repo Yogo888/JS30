@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+</head>
+<body>
+
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = '#BADA55';
+      p.style.fontSize = '50px';
+    }
+
+    // Regular 一般用法
+    console.log('hello');
+
+    // Interpolated %s 替換成指定參數
+    console.log('Hello I am a %s string!', '💩');
+
+    // Styled 帶入css樣式
+    // console.log('%c I am some great text', 'font-size:50px; background:red; text-shadow: 10px 10px 0 blue')
+
+    // warning! 警告圖示
+    console.warn('OH NOOO');
+
+    // Error :| 錯誤圖示
+    console.error('Shit!');
+
+    // Info 資訊圖示
+    console.info('Crocodiles eat 3-4 people per year');
+
+    // Testing 測試是否有錯誤，若第一參數為false，則輸出第二參數內容
+    const p = document.querySelector('p');
+
+    console.assert(p.classList.contains('ouch'), 'That is wrong!');
+
+    // clearing  清除 console 畫面
+    console.clear();
+
+    // Viewing DOM Elements 查看 DOM 元素所有屬性
+    console.log(p);
+    console.dir(p);
+
+    console.clear();
+
+    // Grouping together 群組化顯示
+    dogs.forEach(dog => {
+      console.groupCollapsed(`${dog.name}`);
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+      console.groupEnd(`${dog.name}`);
+    });
+
+    // counting 計算 count() 輸出內容次數
+
+    console.count('Wes');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Steve');
+
+    // timing 計算開始與結束的執行時間
+    console.time('fetching data');
+    fetch('https://api.github.com/users/wesbos')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetching data');
+        console.log(data);
+      });
+    
+    // 把陣列輸出成 table 格式
+    console.table(dogs);
+
+  </script>
+</body>
+</html>
