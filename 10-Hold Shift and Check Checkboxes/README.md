@@ -16,7 +16,7 @@ let lastChecked;
 
 
 
-#### 設定 handleCheck() 方法，處理勾選  input 時的動作
+#### 設定 handleCheck() 方法，處理勾選 input 時的動作
 ```javascript
 function handleCheck(e) {
   let inBetween = false;
@@ -28,7 +28,7 @@ function handleCheck(e) {
     checkboxes.forEach(checkbox => {
       console.log(checkbox);
       
-      // 最初勾選與最後勾選之間的 checkbox 
+      // 最初勾選與最後勾選之間的 input 
       if (checkbox === this || checkbox === lastChecked) {     
         inBetween = !inBetween;
         console.log('Starting to check them in between!');
