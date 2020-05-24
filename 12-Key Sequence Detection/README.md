@@ -31,7 +31,7 @@ window.addEventListener('keyup',(e) => {
 if (pressed.join('').includes(secretCode)){
   console.log('BOM BOM');
   
-  //特定圖片
+  // 觸發效果
   cornify_add();
 }
 ```
