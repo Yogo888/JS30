@@ -18,7 +18,7 @@
 | 09 | Dev Tools Domination | console.log()、console.warn()、console.info()、console.assert()、console.clear()、console.dir()、console.groupCollapsed()、console.groupEnd()、console.count()、console.time() |  [筆記](https://github.com/Yogo888/JS30/tree/master/09-Dev%20Tools%20Domination) | – | 
 | 10 | Hold Shift and Check Checkboxes | e.shiftKey、click | [筆記](https://github.com/Yogo888/JS30/tree/master/10-Hold%20Shift%20and%20Check%20Checkboxes) | [畫面](https://yogo888.github.io/JS30/10-Hold%20Shift%20and%20Check%20Checkboxes) |
 | 11 | Custom Video Player | video.paused、? :、toggle.textContent、parseFloat | [筆記](https://github.com/Yogo888/JS30/tree/master/11-Custom%20Video%20Player/) | [畫面](https://yogo888.github.io/JS30/11-Custom%20Video%20Player/) |
-| 12 | Key Sequence Detection |  |
+| 12 | Key Sequence Detection | Array.prototype.push()、Array.prototype.join()、Array.prototype.includes() | [筆記](https://github.com/Yogo888/JS30/tree/master/12-Key%20Sequence%20Detection) | [畫面](https://yogo888.github.io/JS30/12-Key%20Sequence%20Detection) |
 | 13 | Slide in on Scroll |  |
 | 14 | JavaScript References VS Copying |  |
 | 15 | LocalStorage |  |
