@@ -19,7 +19,7 @@
 | 10 | Hold Shift and Check Checkboxes | e.shiftKey、click | [筆記](https://github.com/Yogo888/JS30/tree/master/10-Hold%20Shift%20and%20Check%20Checkboxes) | [畫面](https://yogo888.github.io/JS30/10-Hold%20Shift%20and%20Check%20Checkboxes) |
 | 11 | Custom Video Player | video.paused、? :、toggle.textContent、parseFloat | [筆記](https://github.com/Yogo888/JS30/tree/master/11-Custom%20Video%20Player/) | [畫面](https://yogo888.github.io/JS30/11-Custom%20Video%20Player/) |
 | 12 | Key Sequence Detection | Array.prototype.push()、Array.prototype.join()、Array.prototype.includes() | [筆記](https://github.com/Yogo888/JS30/tree/master/12-Key%20Sequence%20Detection) | [畫面](https://yogo888.github.io/JS30/12-Key%20Sequence%20Detection) |
-| 13 | Slide in on Scroll |  |
+| 13 | Slide in on Scroll | window.scrollY、window.innerHeight、HTMLElement.offsetTop | [筆記](https://github.com/Yogo888/JS30/tree/master/13-Slide%20in%20on%20Scroll) | [畫面](https://yogo888.github.io/JS30/13-Slide%20in%20on%20Scroll) |
 | 14 | JavaScript References VS Copying |  |
 | 15 | LocalStorage |  |
 | 16 | Mouse Move Shadow |  |
