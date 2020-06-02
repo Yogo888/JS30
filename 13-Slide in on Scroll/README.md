@@ -55,6 +55,9 @@ function checkSlide() {
 window.addEventListener('scroll', debounce(checkSlide));
 ```
 > `window.scrollY` 頁面已滾動的距離(垂直方向)
+
 > `window.innerHeight` 視窗高度
+
 > `sliderImage.height` 圖片高度
+
 > `sliderImage.offsetTop` 圖片至視窗頂端的距離
