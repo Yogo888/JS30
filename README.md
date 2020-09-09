@@ -20,7 +20,7 @@
 | 11 | Custom Video Player | video.paused、? :、toggle.textContent、parseFloat | [筆記](https://github.com/Yogo888/JS30/tree/master/11-Custom%20Video%20Player/) | [畫面](https://yogo888.github.io/JS30/11-Custom%20Video%20Player/) |
 | 12 | Key Sequence Detection | Array.prototype.push()、Array.prototype.join()、Array.prototype.includes() | [筆記](https://github.com/Yogo888/JS30/tree/master/12-Key%20Sequence%20Detection) | [畫面](https://yogo888.github.io/JS30/12-Key%20Sequence%20Detection) |
 | 13 | Slide in on Scroll | window.scrollY、window.innerHeight、HTMLElement.offsetTop | [筆記](https://github.com/Yogo888/JS30/tree/master/13-Slide%20in%20on%20Scroll) | [畫面](https://yogo888.github.io/JS30/13-Slide%20in%20on%20Scroll) |
-| 14 | JavaScript References VS Copying | Call by Value、Call by Reference、JSON.parse()、JSON.stringify() | [筆記](https://github.com/Yogo888/JS30/tree/master/14-JavaScript%20References%20VS%20Copying) | [畫面](https://yogo888.github.io/JS30/14-JavaScript%20References%20VS%20Copying) |
+| 14 | JavaScript References VS Copying | Call by Value、Call by Reference、JSON.parse()、JSON.stringify() | [筆記](https://github.com/Yogo888/JS30/tree/master/14-JavaScript%20References%20VS%20Copying) | – |
 | 15 | LocalStorage |  |
 | 16 | Mouse Move Shadow |  |
 | 17 | Sort Without Articles |  |
